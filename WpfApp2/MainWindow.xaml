@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="AssetsButton" Content="See Assets" HorizontalAlignment="Left" Margin="69,57,0,0" VerticalAlignment="Top" Width="75" Click="AssetsButton_Click"/>
+        <TextBox x:Name="InfoBox" HorizontalAlignment="Left" Height="92" Margin="69,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="54" />
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="69,82,0,0" TextWrapping="Wrap" Text="Employee ID:" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="AssetID" HorizontalAlignment="Left" Height="92" Margin="145,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="45"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="145,82,0,0" TextWrapping="Wrap" Text="Asset ID:" VerticalAlignment="Top" Width="62" RenderTransformOrigin="1.911,0.477"/>
+        <TextBox x:Name="AssetDescription" HorizontalAlignment="Left" Height="92" Margin="226,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="226,82,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" Width="82" RenderTransformOrigin="1.911,0.477"/>
+       
         
+        
+        <Button Content="See Employees" HorizontalAlignment="Left" Margin="392,57,0,0" VerticalAlignment="Top" Width="102" Click="Button_Click"/>
+        <TextBox x:Name="EmployeeID" HorizontalAlignment="Left" Height="92" Margin="392,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="392,82,0,0" TextWrapping="Wrap" Text="Employee ID:" VerticalAlignment="Top" Width="67"/>
+       
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Height="92" Margin="481,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="481,82,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Width="67" />
+       
+        <TextBox x:Name="LastName" HorizontalAlignment="Left" Height="92" Margin="596,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="86"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="596,82,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" Width="67" />
+
     </Grid>
 </Window>
